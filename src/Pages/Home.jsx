@@ -279,7 +279,7 @@ const Home = () => {
               transition={{ duration: 0.8, ease: "easeOut" }}
               className="text-gray-300 text-base xl:text-lg leading-relaxed"
             >
-              Digital marketing agencies often run paid advertising campaigns for themselves.
+              Personified B2B Digital marketing agencies often run paid advertising campaigns for themselves.
               This includes creating compelling ad copy for platforms like Google Ads,
               Facebook Ads, and LinkedIn Ads.
             </motion.p>
