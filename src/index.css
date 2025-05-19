@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  @keyframes staggeredDropdown {
+    0% { 
+      opacity: 0;
+      transform: translateY(20px);
+      visibility: hidden;
+    }
+    100% { 
+      opacity: 1;
+      transform: translateY(0);
+      visibility: visible;
+    }
+  }
+
+  .animate-staggered-dropdown {
+    animation: staggeredDropdown 0.5s ease-out forwards;
+  }
+}
+
+/* Custom staggered animation */
+.staggered-fade li {
+  opacity: 0;
+  transform: translateY(10px);
+  transition: opacity 0.4s ease, transform 0.4s ease;
+}
+
+.group:hover .staggered-fade li {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.group:hover .staggered-fade li:nth-child(1) { transition-delay: 100ms; }
+.group:hover .staggered-fade li:nth-child(2) { transition-delay: 200ms; }
+.group:hover .staggered-fade li:nth-child(3) { transition-delay: 300ms; }
+.group:hover .staggered-fade li:nth-child(4) { transition-delay: 400ms; }
+.group:hover .staggered-fade li:nth-child(5) { transition-delay: 500ms; }
+.group:hover .staggered-fade li:nth-child(6) { transition-delay: 600ms; }
