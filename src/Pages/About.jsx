@@ -12,7 +12,7 @@ import Lownav from "../components/Lownav";
 // import Feedback from "../components/Feedback";
 import Footer from "../components/Footer";
 import LatestProject from "../components/LatestProject";
-import Logoscroll from "../components/logoscroll";
+import Logoscroll from "../components/Logoscroll";
 import HowItWork from "../components/HowItWork";
 
 import ProjectStatsComponent from "../components/ProjectStatsComponent";
