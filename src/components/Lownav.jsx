@@ -172,9 +172,9 @@ const LowNav = () => {
                         } bg-white shadow-xl overflow-hidden transition-all duration-300 ease-out w-full rounded-xl mt-1 origin-top`}
                     >
                         {[
-                            { name: 'B2B Content Syndication', link: '#' },
+                            { name: 'B2B Content Syndication', link: '/content-syndication' },
                             { name: 'Display Advertising', link: '/display-ads' },
-                            { name: 'Sales Development', link: '#' },
+                            { name: 'Sales Development', link: '/sales-development' },
                         ].map((item, index) => (
                             <li 
                                 key={index}
@@ -265,10 +265,10 @@ const LowNav = () => {
                         } bg-white shadow-xl overflow-hidden transition-all duration-300 ease-out w-full rounded-xl mt-1 origin-top`}
                     >
                         {[
-                            { name: 'Our IT by audience', link: '#' },
-                            { name: 'Our Marketing by audience', link: '#' },
-                            { name: 'Our Sales by audience', link: '#' },
-                            { name: 'Our Finance by audience', link: '#' },
+                            { name: 'Our IT buyer audience', link: '#' },
+                            { name: 'Our Marketing buyer audience', link: '#' },
+                            { name: 'Our Sales buyer audience', link: '#' },
+                            { name: 'Our Finance buyer audience', link: 'finance' },
                         ].map((item, index) => (
                             <li 
                                 key={index}
@@ -290,27 +290,27 @@ const LowNav = () => {
                                 {[
                                     { 
                                         name: 'IT', 
-                                        subText: 'Our IT by audience',
+                                        subText: 'Our IT buyer audience',
                                         image: '/images/IT.webp',
                                         link: '#'
                                     },
                                     { 
                                         name: 'Marketing', 
-                                        subText: 'Our Marketing by audience',
+                                        subText: 'Our Marketing buyer audience',
                                         image: '/images/marketing.webp',
                                         link: '#'
                                     },
                                     { 
                                         name: 'Sales', 
-                                        subText: 'Our Sales by audience',
+                                        subText: 'Our Sales buyer audience',
                                         image: '/images/sales.webp',
                                         link: '#'
                                     },
                                     { 
                                         name: 'Finance', 
-                                        subText: 'Our Finance by audience',
+                                        subText: 'Our Finance buyer audience',
                                         image: '/images/finance.webp',
-                                        link: '#'
+                                        link: '/finance'
                                     },
                                 ].map((item, index) => (
                                     <div 

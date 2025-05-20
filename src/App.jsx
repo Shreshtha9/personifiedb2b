@@ -6,6 +6,7 @@ import './index.css';
 import DisplayAds from './Pages/DisplayAds';
 import SalesDevelopment from './Pages/SalesDevelopment';
 import ContentSyndication from './Pages/ContentSyndication';
+import Finance from './Pages/Finance';
 
 function App() {
     return (
@@ -16,6 +17,7 @@ function App() {
                 <Route path="/display-ads" element={<DisplayAds/>} />
                  <Route path="/sales-development" element={<SalesDevelopment/>} />
                 <Route path="/content-syndication" element={<ContentSyndication/>} />
+                 <Route path="/finance" element={<Finance/>} />
             </Routes>
         </Router>
     );
